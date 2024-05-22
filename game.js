@@ -1,1 +1,3 @@
-$("h1").css("color", "red");
+function nextSequence(){
+  var randomNumber = Math.floor(Math.random()*4);
+}
