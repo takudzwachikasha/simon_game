@@ -7,7 +7,7 @@ function nextSequence() {
   return randomNumber;
 }
 var randomChosenColour = buttonColours[nextSequence()];
-//6. Add the new randomChosenColour generated in step 4 to the end of the gamePattern.
+//6.Add the new randomChosenColour generated in step 4 to the end of the gamePattern.
 gamePattern.push(randomChosenColour);
 var $element = $("#" + randomChosenColour);
 
