@@ -11,6 +11,6 @@ var randomChosenColour = buttonColours[nextSequence()];
 gamePattern.push(randomChosenColour);
 var $element = $("#" + randomChosenColour);
 
-//Test ths befre use
+//Test ths befre use sure
 $element.animate({ opacity: 0.1 }, 500)
         .animate({ opacity: 1 }, 500);
