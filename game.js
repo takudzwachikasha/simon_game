@@ -11,6 +11,6 @@ var randomChosenColour = buttonColours[nextSequence()];
 gamePattern.push(randomChosenColour);
 var $element = $("#" + randomChosenColour);
 
-// Now you can perform operations on the selected elemen
+
 $element.animate({ opacity: 0.1 }, 500)
         .animate({ opacity: 1 }, 500);
